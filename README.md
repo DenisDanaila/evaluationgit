@@ -21,7 +21,7 @@ Le site est réalisé en HTML, CSS et JavaScript sans dépendance ni outil de co
 | Pseudonyme GitHub | Nom | Prénom | Rôle et contribution |
 |---|---|---|---|
 | [@DenisDanaila](https://github.com/DenisDanaila) | Danaila | Denis | Étudiant — présentation de l'association, navigation et coordination des intégrations |
-| [@matgaryyy](https://github.com/matgaryyy) | Gary | Mat | Étudiant — catalogue des événements |
+| [@matgaryyy](https://github.com/matgaryyy) | Gary | Mathis | Étudiant — catalogue des événements |
 | [@Raptorr83](https://github.com/Raptorr83) | Medkour | Sofiane | Étudiant — formulaire d'inscription et intégration avec le catalogue |
 
 ## Étapes du développement
@@ -73,17 +73,17 @@ Un conflit survient notamment lorsque deux branches modifient les mêmes lignes,
 
 ### 4. Quelle différence entre correction classique et correction urgente de production ?
 
-**Auteur : Mat Gary (@matgaryyy)**  
+**Auteur : Mathis Gary (@matgaryyy)**  
 Une correction classique suit le cycle normal de développement et de validation. Une correction urgente, ou *hotfix*, part de la version publiée afin de limiter rapidement un problème qui touche les utilisateurs.
 
 ### 5. Pourquoi répercuter une correction de production dans les développements en cours ?
 
-**Auteur : Mat Gary (@matgaryyy)**  
+**Auteur : Mathis Gary (@matgaryyy)**  
 Pour que le défaut corrigé ne réapparaisse pas dans une prochaine version et que les branches de développement bénéficient elles aussi du correctif.
 
 ### 6. Quel est le rôle d'une branche de release ?
 
-**Auteur : Mat Gary (@matgaryyy)**  
+**Auteur : Mathis Gary (@matgaryyy)**  
 Elle permet de préparer une version à publier — stabilisation, dernières corrections et vérifications — sans bloquer la poursuite des nouveaux développements.
 
 ### 7. Comment GitHub Projects et les Issues facilitent-ils organisation et traçabilité ?
