@@ -28,3 +28,18 @@ document.addEventListener("keydown", (event) => {
     menuToggle.focus();
   }
 });
+
+const registrationForm = document.querySelector("#registration-form");
+const registrationFeedback = document.querySelector("#registration-feedback");
+
+registrationForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const formData = new FormData(registrationForm);
+  const name = formData.get("name").toString().trim();
+  const selectedEvent = formData.get("event").toString();
+
+  registrationFeedback.textContent = `Merci ${name}, ta préinscription pour « ${selectedEvent} » est confirmée. Aucune donnée n'a été envoyée ou enregistrée.`;
+  registrationFeedback.classList.add("is-visible");
+  registrationForm.reset();
+});

@@ -26,8 +26,9 @@
       <nav class="site-nav" id="navigation-principale" aria-label="Navigation principale">
         <a href="#accueil">Accueil</a>
         <a href="#association">L'association</a>
+        <a href="#evenements">Événements</a>
         <a href="#engagements">Nos engagements</a>
-        <a class="nav-cta" href="#rejoindre">Nous rejoindre <span aria-hidden="true">↗</span></a>
+        <a class="nav-cta" href="#inscription">S'inscrire <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
 
@@ -99,7 +100,49 @@
           <div class="section-label"><span>03</span> À TOI DE JOUER</div>
           <h2 id="rejoindre-title">La suite s'écrit <em>ensemble.</em></h2>
           <p>Une idée en tête ou simplement envie de participer&nbsp;? L'Agora est un point de départ pour imaginer la vie étudiante qui nous ressemble.</p>
-          <a class="button button-dark" href="#accueil">Revenir à l'accueil <span aria-hidden="true">↑</span></a>
+          <a class="button button-dark" href="#inscription">S'inscrire à un événement <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="registration section-wrap" id="inscription" aria-labelledby="inscription-title">
+        <div class="section-label"><span>04</span> INSCRIPTION</div>
+        <div class="registration-content">
+          <div class="registration-intro">
+            <h2 id="inscription-title">On se retrouve <em>bientôt.</em></h2>
+            <p>Choisis un rendez-vous et laisse-nous tes coordonnées pour nous rejoindre. Cette préinscription est une démonstration : aucune donnée n'est envoyée ni enregistrée.</p>
+          </div>
+
+          <form class="registration-form" id="registration-form">
+            <div class="form-field">
+              <label for="registration-name">Prénom et nom</label>
+              <input id="registration-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="registration-email">Adresse e-mail</label>
+              <input id="registration-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="registration-phone">Téléphone</label>
+              <input id="registration-phone" name="phone" type="tel" autocomplete="tel" required>
+            </div>
+            <div class="form-field">
+              <label for="registration-event">Événement</label>
+              <select id="registration-event" name="event" required>
+                <option value="">Choisir un événement</option>
+                <option value="La rentrée autour d'un café">La rentrée autour d'un café — 15 octobre</option>
+                <option value="Atelier fresque du campus">Atelier fresque du campus — 22 octobre</option>
+                <option value="Scène ouverte étudiante">Scène ouverte étudiante — 5 novembre</option>
+              </select>
+            </div>
+            <div class="form-field form-field-wide">
+              <label for="registration-message">Un mot pour l'équipe <span>(facultatif)</span></label>
+              <textarea id="registration-message" name="message" rows="3"></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="button button-dark" type="submit">Confirmer mon inscription <span aria-hidden="true">↗</span></button>
+              <p id="registration-feedback" class="registration-feedback" role="status" aria-live="polite"></p>
+            </div>
+          </form>
         </div>
       </section>
     </main>

@@ -10,6 +10,12 @@ Première base du site de l'association étudiante fictive **L'Agora Étudiante*
 - Menu mobile accessible au clavier, avec fermeture via Échap et après sélection d'une rubrique.
 - Mise en page responsive, lien d'évitement et respect de la préférence de réduction des animations.
 
+## Fonctionnalité C — Inscription
+
+- Formulaire de préinscription avec nom, e-mail, téléphone et choix d'un événement.
+- Validation native des champs obligatoires et confirmation côté client.
+- Aucune donnée n'est envoyée à un serveur ni stockée.
+
 ## Lancer le site
 
 Ouvrir `index.html` dans un navigateur récent. Aucune installation n'est nécessaire.
@@ -18,4 +24,4 @@ Ouvrir `index.html` dans un navigateur récent. Aucune installation n'est néces
 
 Le nom et les textes de présentation proposés servent de base de travail : ils sont à valider ou remplacer par les informations réelles de l'association avant publication.
 
-Les fonctionnalités B (catalogue d'événements) et C (inscription) ne font pas partie de cette première contribution.
+Le catalogue d'événements (fonctionnalité B) est développé séparément.
